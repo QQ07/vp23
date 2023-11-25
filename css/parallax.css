@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+.parallax{
+  /* overflow-y: hidden;  */
+  display: flex;
+  /* width:100%; */
+  height:1350px; 
+  background:black;
+  font-family: 'BatmanForeverAlternate', sans-serif;
+  font-size:79px;
+  text-align:center;
+  /* border-bottom: 5px solid #ffab0f ; */
+  /* margin-left  : 6vw; */
+  scale: 1;
+    /* display: flex; */
+    /* justify-content: center;  */
+    /* align-items: center; */
+  /* position:absolute; */
+}
+
+.hero_phone {
+  display: none;
+}
+.about img{
+  padding-left: 50px ;
+  /* padding-top: 10px; */
+}
+.about-cnt{
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 70px;
+  
+}
+.about-cnt p{
+  color: #ffab0f ;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.about-cnt h2{
+  color: white;
+  text-align: center;
+
+}
+.center{
+    justify-content: center;
+}
+
+
+#hero_pc {
+  display: initial;
+}
+
+.vish{
+  font-family: 'BatmanForeverAlternate', sans-serif;
+  font-size:62px;
+}
+.tagline{
+  font-family: 'BatmanForeverAlternate', sans-serif;
+  font-size: 35px;
+}
+/* .arrow{ */
+  /* padding-top: 2vh;
+} */
+#tutorial a{
+  color: white;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  /* margin-top: -70px;
+  margin-left: -2rem; */
+}
+
+#tutorial a:hover {
+  color: #ffab0f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#tutorial {
+    margin-top: -120px;
+  margin-left: -1.8rem;
+  /* display: initial; */
+}
+
+#tutorial_phone {
+  display: none;
+}
+
+  @font-face {
+    font-family: 'BatmanForeverAlternate';
+    src: url('../fonts/batman_forever (1)/batmfa__.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 737px) {
+  .parallax{
+    padding-top: 90px;
+    height:68rem;
+  }
+
+  .mimg{
+    content : url("https://res.cloudinary.com/da5mmxnn3/image/upload/v1676621798/vp-webp/mobile-twj_t2lthk.webp")
+  }
+  .hero_phone {
+    display: initial;
+  }
+
+  .hero_phone img {
+    width: 100%;
+    /* height: 50vh; */
+  }
+
+  #hero_pc {
+    display: none;
+  }
+
+  .about img {
+    padding-left:0.01rem;
+  }
+
+  .about-cnt h2 {
+    font-size: 1.5rem;
+  }
+  
+  .about-cnt p {
+    font-size: 18px;
+    /* text-align: left; */
+    text-align: center;
+  }
+
+  .about-cnt {
+    padding-right: 4rem;
+    padding-top: 1rem;
+  }
+  #tutorial {
+    display: none;
+  }
+
+  #tutorial_phone {
+    display: initial;
+  }
+
+  #tutorial_phone a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+    margin-top: -1rem;
+  }
+}

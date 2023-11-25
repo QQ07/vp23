@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Digital-7';
+  src: url('../fonts/digital-7.ttf');
+}
+
+.container_for_timer {
+  display: none;
+}
+
+#headline {
+  color: white;
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+}
+
+.container_for_timer li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.container_for_timer li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+
+@media all and (max-width: 768px) {
+
+  .container_for_timer {
+      background-image:radial-gradient(circle at 24.1% 68.8%, #130F40 0%, #000000  80%);
+      display: initial;
+      /* display: flex; */
+  }
+
+  .countdown_1 ul {
+      display: flex;
+      justify-content: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      background-image:radial-gradient(circle at 24.1% 68.8%, #130F40 0%, #000000  80%);
+      width: 75%;
+      height: 18rem;
+      padding-top: 1rem;
+      /* margin-right: 3vw;
+      margin-left: 3vw; */
+      margin:auto;
+      border-radius: 3vw;
+      margin-bottom: 3rem;
+      font-family: 'Poppins';
+      font-weight: 600;
+      font-size: 4rem;
+      /* width: 100%; */
+  }
+
+  .top2 {
+      /* padding-right: 3rem; */
+      margin-right:1rem ;
+      margin-left: -1rem;
+  }
+
+  .bottom2 {
+      padding-left: 1.5rem;
+  }
+
+
+  #headline {
+    padding-top: 4rem;
+    font-size: 2rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 800;
+  }
+  
+  .container_for_timer li {
+    font-size: 1rem;
+    color: silver;
+    /* padding-right: 3rem; */
+  }
+  
+  .container_for_timer li span {
+    font-size: 4rem;
+    text-align: center;
+    color: #f2a20e;
+    font-family: 'Digital-7';
+    font-weight: lighter;
+  }
+}

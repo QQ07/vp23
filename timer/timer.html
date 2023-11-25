@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAWARA's WEB</title>
+    <link rel="stylesheet" href="timer.css">
+    <!--Font import-->
+    <link href="flipTimer.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!--countdown pluggin-->
+    <script src="jquery.flipTimer.js"></script>
+
+</head>
+
+<body>
+    <!-- <article> -->
+    <div class="timer">
+        <!-- <h1>Mark the date</h1> -->
+        <div class="test">
+            <div class="flipTimer">
+                <div class="daydet">
+                    <div class="days">
+                    </div>
+                    <p style="color: #c226ff; font-size: 1.2rem; text-align: center; font-family: 'Montserrat', sans-serif;">Days</p>
+                </div>
+                <div class="daydet">
+                    <div class="hours">
+                        
+                    </div>
+                    <p style="color: #c226ff; font-size: 1.2rem; text-align: center;">Hours</p>
+                </div>
+                <div class="daydet">
+                    <div class="minutes">
+                        
+                    </div>
+                    <p style="color: #c226ff; font-size: 1.2rem; text-align: center;">Minutes</p>
+                </div>
+                <div class="daydet">
+                    <div class="seconds">
+                        
+                    </div>
+                    <p style="color: #c226ff; font-size: 1.2rem; text-align: center;">Seconds</p>
+                </div>
+            </div>
+            <!-- <div class="details">
+                    <p>Days</p>
+                    <p>Hours</p>
+                    <p>Minutes</p>
+                    <p>Seconds</p>
+                </div> -->
+        </div>
+    </div>
+    <!-- </article> -->
+    <script>
+        $(document).ready(function () {
+            $('.flipTimer').flipTimer({
+
+                // count up or countdown
+                direction: 'down',
+
+                // the target <a href="https://www.jqueryscript.net/time-clock/">date</a>
+                date: 'March 4, 2023 01:00:00',        //VP Date
+
+                // callback works only with direction = "down"
+                callback: function () { alert('Event Started'); }
+
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'BatmanForeverAlternate';
+  src: url('../batmfa__.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    height: 10/0vh;
+    background-image: radial-gradient(circle at 50.1% 58.8%, #130F40 0%, #000000 80%);
+    /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%); */
+}
+
+.headtitle{
+  font-family: 'BatmanForeverAlternate';
+  text-align: center;
+  font-size: 2.2rem;
+  color: white;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    
+  }
+  .title{
+    font-family: 'BatmanForeverAlternate';
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+  }
+  .card {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    /* border:2px solid #ffab0f; */
+    /* border-radius: 40px; */
+  
+/*     box-shadow: #ffab0f 0px 0px 0px 3px, #ffab0f 0px 4px 6px -1px, #ffab0f 0px 1px 0px inset; */
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    /* border-radius: 40px; */
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    /* border-radius: 40px; */
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+/*   .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: #ffab0f 0px 0px 20px 5px;
+  } */
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+    
+  }
+  
+  
+  /*
+  .card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+  }
+  */

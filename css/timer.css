@@ -1,0 +1,154 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.f-timer {
+  /* background: ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100rem; */
+  /* height: 100vh; */
+  padding-top: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 3vw;
+  font-family: "Poppins", sans-serif;
+  margin-top: 8vh;
+  background-image: radial-gradient(
+    circle at 24.1% 68.8%,
+    #130f40 0%,
+    #000000 80%
+  );
+  /* background: rgba(20, 20, 20, 0.984); */
+  border-radius: 3vw;
+}
+/* .days{
+    display: flex;
+} */
+
+.daydet {
+  display: block;
+  width: 10.3rem;
+  height: 6rem;
+}
+
+.timer {
+  /* height: 100vh; */
+  width: 100rem;
+  justify-content: center;
+}
+
+.timer h1 {
+  color: black;
+  text-align: center;
+  font-size: 58px;
+  margin-bottom: 58px;
+}
+
+.timer .flipTimer {
+  padding-left: 15.5rem;
+  align-items: center;
+  position: relative;
+  padding-right: 13.5rem;
+}
+
+.timer .test {
+  height: 40vh;
+  padding-top: 6vh;
+}
+
+.flipTimer {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.flipTimer .days p {
+  font-size: 2rem;
+  height: 2rem;
+}
+
+.flipTimer .hours p {
+  font-size: 2rem;
+  height: 5rem;
+}
+
+.flipTimer .minutes p {
+  font-size: 2rem;
+  height: 5rem;
+}
+
+.flipTimer .seconds p {
+  font-size: 2rem;
+  height: 5rem;
+}
+.timer-text {
+  align-items: center;
+  justify-content: center;
+  margin-left: 27%;
+  /* padding-bottom: 2vh; */
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+@media only screen and (max-width: 723px) {
+  .flipTimer {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-row-gap: 5rem;
+    grid-gap: 5rem;
+  }
+}
+
+@media (min-width: 723px) and (max-width: 1050px) {
+  .flipTimer {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-row-gap: 5rem;
+    grid-gap: 5rem;
+  }
+}
+
+@media only screen and (max-width: 723px) {
+  .flipTimer {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-row-gap: 5rem;
+    grid-gap: 5rem;
+  }
+
+  .timer-text {
+    font-size: 2rem;
+    justify-content: center;
+    padding-left: 1.5rem;
+  }
+
+  .timer {
+    width: 40rem;
+    height: 120vh;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 723px) and (max-width: 1050px) {
+  .flipTimer {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-row-gap: 5rem;
+    grid-gap: 5rem;
+  }
+
+  .timer-text {
+    justify-content: center;
+    font-size: 3.5rem;
+    padding-right: 2rem;
+  }
+
+  .timer {
+    height: 43vh;
+  }
+}

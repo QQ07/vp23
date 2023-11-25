@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'BatmanForeverAlternate';
+    src: url('../fonts/batman_forever (1)/batmfa__.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    /* background: #250747; */
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading-of-tutorials {
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    color: #ffab0f;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+#first-section {
+    font-family: 'Poppins', sans-serif;
+    color: #ffab0f;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#second-section {
+    font-family: 'Poppins', sans-serif;
+    color: #ffab0f;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.external-students {
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-right: 1px dashed white;
+    padding-top: 2.5rem;
+    height: 32rem;
+    padding-right: 1rem;
+}
+
+.external-students a {
+    color: white;
+    text-decoration: underline;
+}
+
+.external-students a:hover {
+    color: #ffab0f;
+    text-decoration: underline;
+}
+
+.for-vu-students {
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+}
+
+.for-vu-students ul li {
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+.text-container {
+    padding-top: 3rem;
+    display: flex;
+    padding-left: 2rem;
+    text-align: left;
+    background-image: radial-gradient(circle at 50.1% 58.8%, #130F40 0%, #000000  80%);
+    border-radius: 3vw;
+    height: 40rem; 
+}
+
+.tutorial-video {
+    align-items: center;
+    /* padding-left: 21rem; */
+    /* padding-top: 0rem; */
+    padding-bottom: 3rem;
+    
+}
+
+.external-students ul li {
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+@media only screen and (max-width: 480px){
+    
+    .text-container{
+        flex-direction:column ;
+        height: 110rem;
+        width: 90%;
+    }
+
+    .tutorial-video {
+        margin-left: 0;
+        padding-top: 0rem;
+        padding-left: 1.8rem;
+        padding-bottom: 3rem;
+    }
+
+    .tutorial-video iframe {
+        height: 220px;
+        width: 300px;
+    }
+
+    .for-vu-students {
+        padding-top: 31rem;
+        padding-left: 0rem;
+    }
+
+    .external-students {
+        border: none;
+    }
+
+    .external-students ul li {
+        padding-left: 0rem;
+        padding-right: 0.3rem;
+        text-align: left;
+    }
+
+    .for-vu-students ul li {
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+        text-align: left;
+    }
+}

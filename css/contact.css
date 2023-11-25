@@ -1,0 +1,189 @@
+.sec-contactus {
+    padding-bottom: 3rem;
+    /* margin-left: 3rem; */
+    background-image: radial-gradient(circle at 24.1% 68.8%, #130F40 0%, #000000  80%);
+    margin-right: 3vw;
+    margin-left: 3vw;
+    border-radius: 3vw;
+    margin-bottom: 3rem;
+    font-family: 'Poppins';
+}
+
+.contact-container {
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+
+.contact-container h3 a {
+    color:rgb(255, 171, 15) ;
+}
+
+.contact-container .cont1{
+    padding-right: 5rem;
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
+    color: rgb(255, 171, 15);;
+    font-size: 1.3rem;
+    /* background: black; */
+}
+
+.contact-container .cont2{
+    padding-right: 3rem;
+    height:15rem;
+    width: 15rem;
+    text-align: center;
+    color: rgb(255, 171, 15);
+    font-size: 1rem;
+}
+
+.contact-container .cont3{
+    padding-right: 3rem;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    color: rgb(255, 171, 15);;
+    font-size: 1rem;
+}
+
+.contact-container .cont4 {
+    padding-right: 3rem;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    color: rgb(255, 171, 15);;
+    font-size: 1rem;
+}
+
+.contact-container .cont1 img {
+    height: 6rem;
+    width: 6rem;
+    padding-bottom: 0.8rem;
+}
+
+.contact-container .cont2 img {
+    height: 6rem;
+    width: 6rem;
+    padding-bottom: 0.8rem;
+}
+
+.contact-container .cont3 img {
+    /* padding-top: 1rem; */
+    height: 6rem;
+    width: 6rem;
+    padding-bottom: 0.8rem;
+}
+
+.contact-container .cont4 img {
+    height: 6rem;
+    width: 6rem;
+    padding-bottom: 0.8rem;
+}
+
+.contact-container .cont1 p {
+    padding-top: 2rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.contact-container .cont1 p a:hover  {
+    color: rgb(255, 171, 15);;
+}
+
+.contact-container .cont2 p {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.contact-container .cont2 p a:hover  {
+    color: rgb(255, 171, 15);
+}
+
+.contact-container .cont3 p {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.contact-container .cont3 p a:hover  {
+    color: rgb(255, 171, 15);
+}
+
+.contact-container .cont4 p {
+    padding-top: 2.7rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+.contact-container .cont4 p a:hover  {
+    color: rgb(255, 171, 15);
+}
+
+@media only screen and (max-width: 480px){
+    .sec-contactus {
+        height: 65rem;
+        padding-bottom: 10rem;
+        margin-bottom: 6rem;
+    }
+
+    .sec-contactus h1 {
+        font-size: 3rem;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+
+    .cont1 {
+        padding-bottom: 3rem;
+        /* margin-left: -0.8rem; */
+    }
+
+    .cont1 p {
+        margin-top: -1.8rem;
+    }
+
+    .cont2 {
+        padding-bottom: 0rem;
+        margin-left: -1.5rem;
+    }
+
+    .cont2 p {
+        margin-top: 0.2rem;
+        /* padding-left: 0.5rem */
+    }
+
+    .cont3 {
+        padding-bottom: 2rem;
+        margin-left: -1.8rem;
+    }
+
+    .cont3 p {
+        margin-top: 0.2rem;
+    }
+
+    .cont4 {
+        padding-bottom: 0rem;
+        margin-left: -2rem;
+    }
+
+    .cont4 p {
+        margin-top: -.7rem;
+        /* padding-top: 1.5rem; */
+    }
+}
+
+@media (min-width: 1417px){
+    .cont4 h3 {
+        font-size: 1.3rem;
+        padding-bottom: 5px;
+    }
+
+    .contact-container {
+        padding-left: 11rem;
+    }
+}
